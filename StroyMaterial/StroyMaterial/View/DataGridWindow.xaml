@@ -1,0 +1,62 @@
+﻿<Window x:Class="StroyMaterial.View.DataGridWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StroyMaterial.View"
+        mc:Ignorable="d"
+        Title="Главное окно" Icon="D:\Suvorov_demo\StroyMaterial\StroyMaterial\img\picture.png" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="650"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <DataGrid
+            SelectedItem="{Binding SelectedItem}"
+            ItemsSource="{Binding Product}"
+            AutoGenerateColumns="False"
+            >
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Header="название продукта"
+                    Binding="{Binding ProductName}"
+                    />
+                <DataGridTextColumn
+                    Header="описание продукта"
+                    Binding="{Binding ProductDescription}"
+                    />
+                <DataGridTextColumn
+                    Header="категория продукта"
+                    Binding="{Binding ProductCategory}"
+                    />
+                <DataGridTextColumn
+                    Header="производитель продукта"
+                    Binding="{Binding ProductManufacturer}"
+                    />
+                <DataGridTextColumn
+                    Header="скидка"
+                    Binding="{Binding ProductCost}"
+                    />
+                <DataGridTextColumn
+                    Header="скидка"
+                    Binding="{Binding ProductDiscountAmount}"
+                    />
+                <DataGridTextColumn
+                    Header="скидка"
+                    Binding="{Binding ProductQuantityInStock}"
+                    />
+                <DataGridTextColumn
+                    Header="скидка"
+                    Binding="{Binding ProductStatus}"
+                    />
+                
+                
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Name="BtnAdd" Content="добавить" Grid.Column="1" Height="50" Margin="10" VerticalAlignment="Top" Background="#FF498C51"/>
+        <Button Name="BtnEdit" Content="редактировать" Grid.Column="1" Height="50" Margin="10,70,10,10" VerticalAlignment="Top" Background="#FF498C51"/>
+        <Button Name="BtnDelete" Content="удалить" Grid.Column="1" Height="50" Margin="10,130,10,10" VerticalAlignment="Top" Background="#FF498C51"/>
+    </Grid>
+</Window>

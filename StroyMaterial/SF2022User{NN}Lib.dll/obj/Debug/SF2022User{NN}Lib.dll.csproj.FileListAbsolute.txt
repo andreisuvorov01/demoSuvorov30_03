@@ -1,0 +1,6 @@
+D:\Suvorov_demo\StroyMaterial\SF2022User{NN}Lib.dll\bin\Debug\SF2022User{NN}Lib.dll.dll
+D:\Suvorov_demo\StroyMaterial\SF2022User{NN}Lib.dll\bin\Debug\SF2022User{NN}Lib.dll.pdb
+D:\Suvorov_demo\StroyMaterial\SF2022User{NN}Lib.dll\obj\Debug\SF2022User{NN}Lib.dll.csproj.AssemblyReference.cache
+D:\Suvorov_demo\StroyMaterial\SF2022User{NN}Lib.dll\obj\Debug\SF2022User{NN}Lib.dll.csproj.CoreCompileInputs.cache
+D:\Suvorov_demo\StroyMaterial\SF2022User{NN}Lib.dll\obj\Debug\SF2022User{NN}Lib.dll.dll
+D:\Suvorov_demo\StroyMaterial\SF2022User{NN}Lib.dll\obj\Debug\SF2022User{NN}Lib.dll.pdb
